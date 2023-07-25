@@ -44,6 +44,7 @@ if [ -d "$TEST_DIR" ]; then
     rm -r $TEST_DIR
 fi
 
+echo "creating new test directory"
 mkdir -p $TEST_DIR
 
 echo "generating tests"
