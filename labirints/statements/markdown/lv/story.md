@@ -1,2 +1,2 @@
 Ezītis atkal ir apmaldījies. Šoreiz ne miglā, bet gan labirintā.
-Palīdzi atrast ezītim ceļu līdz sēnēm.
+Palīdzi atrast ezītim ceļu līdz sēnēm, neizejot no labirinta.
