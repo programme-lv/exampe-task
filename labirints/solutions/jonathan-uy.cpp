@@ -20,9 +20,9 @@ int main(){
         for(int j = 0; j < M; j++){
             scanf(" %c", &c);
             if(c == '#')    vis[i][j] = true;
-            else if(c == 'A'){
+            else if(c == 'E'){
                 sx = i; sy = j;
-            } else if(c == 'B'){
+            } else if(c == 'S'){
                 ex = i; ey = j;
             }
         }
@@ -47,12 +47,8 @@ int main(){
         }
     }
 
-    if(!vis[ex][ey]){
-        printf("NO\n");
-        return 0;
-    }
+    assert(vis[ex][ey]);
 
-    printf("YES\n%d\n", dist[ex][ey]);
     pii P = {ex, ey};
     for(int i = dist[ex][ey]; i > 0; i--){
         ans[i] = par[P.x][P.y];

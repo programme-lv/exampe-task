@@ -49,14 +49,14 @@ int main(int argc, char* argv[]) {
     // Set start (A) and end (B) points
     int A_y = rnd.next(0, n - 1);
     int A_x = rnd.next(0, m - 1);
-    maze[A_y][A_x] = 'A';
+    maze[A_y][A_x] = 'E';
     int B_y = rnd.next(0, n - 1);
     int B_x = rnd.next(0, m - 1);
-    while(maze[B_y][B_x] == 'A') {
+    while(maze[B_y][B_x] != '.') {
         B_y = rnd.next(0, n - 1);
         B_x = rnd.next(0, m - 1);
     }
-    maze[B_y][B_x] = 'B';
+    maze[B_y][B_x] = 'S';
 
     cout<<n<<" "<<m<<endl;
     for (const auto &row : maze) {

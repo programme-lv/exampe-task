@@ -1,0 +1,15 @@
+specification = "1.0"
+
+code = "labirints"
+name = "Ezītis labirintā"
+
+authors = ["Krišjānis Petručeņa"]
+tags = ["bfs"]
+
+type = "simple"
+
+time = 1.0 # seconds
+memory = 256 # MB
+
+difficulty = 2 # 1-5
+
