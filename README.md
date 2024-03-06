@@ -11,7 +11,4 @@ The necessity of the exported FS format can be justified by the following reason
 
 ## Notes
 
-`temporary` directory can contain compiled executables and other files except tests
-that can be derived from the original state and can be safely deleted.
-
 `environment` directory contains all the files that should be adjacent to the executable during execution.
