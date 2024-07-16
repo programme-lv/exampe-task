@@ -12,3 +12,6 @@ The necessity of the exported FS format can be justified by the following reason
 ## Notes
 
 `environment` directory contains all the files that should be adjacent to the executable during execution.
+
+rn neither solutions nor generation files are not included in the task json
+
