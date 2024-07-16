@@ -1,14 +1,12 @@
-specification = "1.1"
+specification = "2.0"
 
-code = "summa"
-name = "Saskaiti skaitļus!"
+task_name = "Saskaiti skaitļus!"
 
-authors = ["Krišjānis Petručeņa"]
-tags = ["math"]
+[metadata]
+problem_tags = ["math"]
+difficulty_1_to_5 = 1
+task_authors = ["Krišjānis Petručeņa"]
 
-type = "simple" # simple (default checker) / checker / interactive
-
-time = 1.0 # seconds
-memory = 64 # MB
-
-difficulty = 1 # 1-5
+[constraints]
+memory_megabytes = 64
+cpu_time_seconds = 1.0
